@@ -106,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
-            android:maxLines="8"/>
+            android:maxLines="7"/>
 
         <Button
             android:id="@+id/buttonSaveOnl"
