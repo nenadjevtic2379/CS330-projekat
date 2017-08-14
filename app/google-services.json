@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635910742833",
+    "firebase_url": "https://mojkuvar-a15c6.firebaseio.com",
+    "project_id": "mojkuvar-a15c6",
+    "storage_bucket": "mojkuvar-a15c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635910742833:android:fa742bf235e11d77",
+        "android_client_info": {
+          "package_name": "com.example.korsn.mojkuvar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635910742833-pnd33t40gvvl3qaq5j4s8e1gngl3m0p3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.korsn.mojkuvar",
+            "certificate_hash": "f170b96459f0650ea837c82fb04c0af1d72ad80d"
+          }
+        },
+        {
+          "client_id": "635910742833-oj8o47h1bndqi6naha6h8veji5r1uhff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgAtAXZmpxovRP_rp8bk6YwTMXuMj20mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635910742833-oj8o47h1bndqi6naha6h8veji5r1uhff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

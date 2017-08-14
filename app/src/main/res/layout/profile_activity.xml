@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textViewUserEmail"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/buttonLogout"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:text="Ime"
+            android:paddingTop="30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/editTextNameOnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2">
+
+    <requestFocus />
+    </EditText>
+
+
+
+            <TextView
+                android:text="Vrsta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/radio_groupOnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="55dp"
+            android:paddingBottom="20dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/slatkoOnl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="slatko"
+
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/slanoOnl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="slano"
+                />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:text="Sastojci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/editSastOnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="5"/>
+
+        <TextView
+            android:text="Opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editOpOnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="8"/>
+
+        <Button
+            android:id="@+id/buttonSaveOnl"
+            android:text="Dodaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSeeOnl"
+        android:text="Pregled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

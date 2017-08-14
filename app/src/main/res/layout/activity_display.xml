@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+       >
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="82dp"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextOpis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextSastojci"
+            android:layout_below="@+id/editTextSastojci"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextName"
+            android:layout_alignParentLeft="true"
+            android:text="Naziv"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveData"
+            android:text="Sačuvaj"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/editTextOpis"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextOpis"
+            android:layout_alignLeft="@+id/textView1"
+            android:text="Opis"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <!-- <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextVrsta"
+            android:layout_alignLeft="@+id/textView1"
+            android:text="Vrsta"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextOpis"
+            android:layout_alignLeft="@+id/lin"
+            android:text="Sastojci"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/editTextSastojci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_below="@+id/lin"
+            android:layout_alignLeft="@+id/editTextName"
+            android:layout_alignStart="@+id/editTextName">
+
+
+        </EditText>
+
+      <!--  <EditText
+            android:id="@+id/editTextVrsta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextSastojci"
+            android:layout_below="@+id/editTextName"
+            android:ems="10"
+            android:inputType="text" />-->
+
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView1"
+            android:paddingTop="30px">
+
+            <TextView
+                android:id="@+id/text_view_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vrsta"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingRight="25dp"/>
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="25dp"
+                >
+
+
+                <RadioButton
+                    android:id="@+id/slatko"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="slatko"
+
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/slano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="slano"
+                   />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
